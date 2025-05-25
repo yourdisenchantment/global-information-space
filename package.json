@@ -1,0 +1,41 @@
+{
+  "name": "global-information-space",
+  "version": "1.0.0",
+  "description": "1. [Создание html-страницы с применением CSS](1-creating-html-page-with-css) 2. [Создание простых скриптов на JavaScript](2-creating-simple-scripts-in-javascript) 3. [Функции и обработка событий JavaScript](3-functions-and-event-handling-in-javascript) 4. [Операторы ветвлений и циклов JavaScript](4-branching-operators-and-loops-in-javascript) 5. [Методы JavaScript](5-methods-in-javascript) 6. [Работа с массивами на JavaScript](6-working-with-arrays-in-javascript) 7. [Работа с элементами управления на JavaScript](7-working-with-controls-in-javascript) 8. [Работа с формами на JavaScript](8-working-with-forms-in-javascript) 9. [Работа с изображениями на JavaScript](9-working-with-images-in-javascript) 10. [Обработка событий на JavaScript](10-event-handling-in-javascript) 11. [Основные методы JQuery](11-basic-methods-in-jquery) 12. [Основные события JQuery](12-basic-events-in-jquery)",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.25.4",
+    "fdir": "^6.4.4",
+    "nanoid": "^3.3.11",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.2",
+    "postcss": "^8.5.3",
+    "rollup": "^4.41.1",
+    "source-map-js": "^1.2.1",
+    "tinyglobby": "^0.2.14"
+  },
+  "devDependencies": {
+    "eslint": "^9.27.0",
+    "prettier": "^3.5.3",
+    "stylelint": "^16.19.1",
+    "stylelint-config-standard": "^38.0.0",
+    "vite": "^6.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint:css": "stylelint \"**/*.css\"",
+    "lint:css:fix": "stylelint \"**/*.css\" --fix",
+    "lint:js": "eslint \"**/*.js\"",
+    "lint:js:fix": "eslint \"**/*.js\" --fix",
+    "format": "prettier --write .",
+    "lint:all": "npm run lint:css && npm run lint:js",
+    "clean": "rm -rf dist node_modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

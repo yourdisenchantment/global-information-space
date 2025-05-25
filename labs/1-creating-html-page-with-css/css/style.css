@@ -1,0 +1,118 @@
+/* Основной контейнер навигации */
+#main-menu {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 12px;
+    background-color: gold;
+}
+
+/* Сброс стилей по умолчанию */
+#main-menu * {
+    box-sizing: border-box;
+}
+
+/* Основной список навигации */
+#nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 0;
+}
+
+/* Элементы первого уровня */
+#nav > li {
+    position: relative;
+}
+
+/* Ссылки первого уровня - базовые стили */
+#nav > li > a {
+    display: block;
+    color: navy;
+    width: 100px;
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: gold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+
+/* Вложенное меню */
+#nav > li > ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    min-width: 130px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: olive;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+}
+
+/* Элементы вложенного меню */
+#nav > li > ul > li {
+    width: 100%;
+}
+
+/* Ссылки вложенного меню */
+#nav > li > ul > li > a {
+    display: block;
+    padding: 5px 10px;
+    color: aqua;
+    font-size: 12px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover эффект для вложенного меню */
+#nav > li > ul > li > a:hover {
+    background-color: navy;
+    color: white;
+}
+
+/* Стили для кнопки настроек */
+#nav > #settings > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    padding: 0;
+}
+
+#nav > #settings > a img {
+    width: 19px;
+    height: 19px;
+}
+
+/* Показ вложенного меню при наведении */
+#nav > li:hover > ul {
+    display: block;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (width <= 768px) {
+    #nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #nav > li {
+        width: 100%;
+    }
+
+    #nav > li > a {
+        width: 100%;
+    }
+
+    #nav > li > ul {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+    }
+}
