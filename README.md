@@ -36,7 +36,7 @@
 
 ```bash
 git clone https://github.com/yourdisenchantment/global-information-space.git
-cd client-programming
+cd global-information-space
 ```
 
 ### Установка зависимостей
@@ -64,7 +64,7 @@ npm run build
 ## Структура проекта
 
 ```
-client-programming/
+global-information-space/
 ├── labs/                  # Директория с лабораторными работами
 │   ├── 1-creating-html-page-with-css/
 │   ├── 2-creating-simple-scripts-in-javascript/

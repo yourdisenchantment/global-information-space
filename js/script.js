@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             title: "Создание простых скриптов на JavaScript",
-            description: "...",
+            description:
+                "Создание простых JavaScript-скриптов для обработки строк и выполнения арифметических операций.",
             link: "./labs/2-creating-simple-scripts-in-javascript/index.html",
         },
         {
