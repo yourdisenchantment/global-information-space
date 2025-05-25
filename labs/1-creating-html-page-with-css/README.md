@@ -20,7 +20,7 @@ CSS используются для создания и изменения ст�
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Меню</title>
-    <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 
@@ -28,7 +28,7 @@ CSS используются для создания и изменения ст�
     <ul id="nav">
         <li id="settings">
             <a href="#">
-                <img alt="Настройки" src="./images/settings.svg">
+                <img alt="Настройки" src="images/settings.svg">
             </a>
         </li>
         <li>
@@ -45,7 +45,7 @@ CSS используются для создания и изменения ст�
     </ul>
 </nav>
 
-<script defer src="./js/script.js"></script>
+<script defer src="js/script.js"></script>
 </body>
 </html>
 ```

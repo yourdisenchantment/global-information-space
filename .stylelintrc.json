@@ -1,0 +1,12 @@
+{
+    "extends": [
+        "stylelint-config-standard"
+    ],
+    "rules": {
+        "no-duplicate-selectors": true,
+        "color-hex-length": "short",
+        "selector-attribute-quotes": "always",
+        "no-descending-specificity": true,
+        "declaration-empty-line-before": null
+    }
+}

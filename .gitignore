@@ -1,0 +1,50 @@
+# Logs and temporary files
+*.log
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+._*
+
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.pdb
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor-related
+*.eslintcache
+*.prettiercache
+.stylelintcache
+
+# Dependency directories (if using other package managers)
+bower_components/
+jspm_packages/
+
+# Distribution files
+dist/
+build/
+
+# If you are using Vite for build add this
+/.output/
+
+# Local environment files
+.env
+.env.local
